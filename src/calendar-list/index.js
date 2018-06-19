@@ -80,6 +80,8 @@ class CalendarList extends Component {
     this.renderCalendarBound = this.renderCalendar.bind(this);
     this.getItemLayout = this.getItemLayout.bind(this);
     this.onLayout = this.onLayout.bind(this);
+    this.scrollToDay = this.scrollToDay.bind(this);
+    this.scrollToMonth = this.scrollToMonth.bind(this);
   }
 
   onLayout(event) {
